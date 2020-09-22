@@ -18,7 +18,7 @@ print(2+(6*10))
 print(10/3)
 
 # hibát okoz 
-print(10/0)
+# print(10/0)
 
 
 
