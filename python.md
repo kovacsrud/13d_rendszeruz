@@ -7,3 +7,16 @@ Az első Python program:
 ```python
 print("Hello world!")
 ```
+
+A print utasítás kiírja (ha nincs hiba) az adott kifejezés eredményét, vagy egy változó értékét
+
+```python
+print(2+2+6)
+
+print(2+(6*10))
+
+print(10/3)
+
+print(10/0)
+```
+A 0-val való osztáskor hibát kapunk.
