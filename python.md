@@ -80,3 +80,16 @@ b=input()
 
 print(a+b)
 ```
+
+Amennyiben számként akarjuk kezelni a beolvasott adatot, az int() függvénnyel konvertálni kell az input() által beolvasott értéket a 
+megfelelő típusra.
+
+```python
+print("A:")
+a=int(input())
+
+print("B:")
+b=int(input())
+
+print(a+b)
+```
