@@ -70,4 +70,13 @@ print(a)
 a/=b
 print(a)
 ```
+### Felhasználói adatbevitel
 
+Az **input()** függvény segítségével lehet bekérni adatot egy változóba a felhasználótól. A beolvasott adat típusa ebben az esetben mindig **string** azaz szöveges adat.
+
+```python
+a=input()
+b=input()
+
+print(a+b)
+```
