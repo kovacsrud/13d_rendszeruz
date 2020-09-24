@@ -93,3 +93,17 @@ b=int(input())
 
 print(a+b)
 ```
+
+Ha a bevitelkor nem egész számokat akarunk megadni, akkor a **float()** függvénnyel kell a bevitt értéket konvertálni. Ellenkező
+esetben hibát kapunk futtatáskor.
+
+```python
+print("A:")
+a=float(input())
+
+print("B:")
+b=float(input())
+
+print(a+b)
+```
+
