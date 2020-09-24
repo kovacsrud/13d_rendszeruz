@@ -42,3 +42,13 @@ b="25"
 
 print(a+b)
 ```
+
+Ha az egyik változó szöveg, a másik szám, akkor valamilyen szöveges eredményt fogunk kapni egy művelet elvégzésekor.
+
+```python
+a="valami"
+b=3
+
+print(a*b)
+```
+Az eredmény:valamivalamivalami
