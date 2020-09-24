@@ -28,3 +28,17 @@ A + jel hatására a karakter vagy szöveg típusú adatok össze lesznek fűzve
 print("2"+"2")
 print("valami "+"szöveg")
 ```
+A Python automatikusan kezeli a változók típusát. Emiatt figyelni kell arra, hogy egy művelet különböző típusokkal végrehajtva
+más eredményt adhat.
+
+```python
+a=12
+b=25
+
+print(a+b)
+
+a="12"
+b="25"
+
+print(a+b)
+```
