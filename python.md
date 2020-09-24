@@ -106,4 +106,18 @@ b=float(input())
 
 print(a+b)
 ```
+### Összehasonlító műveletek
+
+Eredményük mindig egy logikai érték (igaz/hamis) vagy másképpen (true/false)
+
+```python
+a=12
+b=21
+print(a==b)
+print(a!=b)
+print(a>b)
+print(a<b)
+print(a>=b)
+print(a<=b)
+```
 
