@@ -20,3 +20,11 @@ print(10/3)
 print(10/0)
 ```
 A 0-val való osztáskor hibát kapunk.
+
+### Szövegekkel való műveletek
+A + jel hatására a karakter vagy szöveg típusú adatok össze lesznek fűzve.
+
+```python
+print("2"+"2")
+print("valami "+"szöveg")
+```
