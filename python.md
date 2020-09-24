@@ -120,4 +120,16 @@ print(a<b)
 print(a>=b)
 print(a<=b)
 ```
+### Elágazások a Pythonban
+
+Egyszeres egyágú elágazás
+```python
+a=5
+
+if (a>3):
+    print("Nagyobb")
+    
+    
+print("Itt a vége")
+```
 
