@@ -52,3 +52,22 @@ b=3
 print(a*b)
 ```
 Az eredmény:valamivalamivalami
+
+Értékadó utasítások:
+
+```python
+a=10
+b=2
+a+=b
+print(a)
+
+a-=b
+print(a)
+
+a*=b
+print(a)
+
+a/=b
+print(a)
+```
+
