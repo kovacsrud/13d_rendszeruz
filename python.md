@@ -132,4 +132,13 @@ if (a>3):
     
 print("Itt a vége")
 ```
+Egyszeres, kétágú elágazás
 
+Ebben az esetben az ELSE ág az elágazás másik ága
+
+```python
+if (a>=3):
+    print("Nagyobb v. egyenlő")    
+else:
+    print("Kisebb")  
+```
