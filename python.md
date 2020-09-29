@@ -35,6 +35,8 @@ más eredményt adhat.
 a=12
 b=25
 
+
+
 print(a+b)
 
 a="12"
@@ -122,7 +124,7 @@ print(a<=b)
 ```
 ### Elágazások a Pythonban
 
-Egyszeres egyágú elágazás
+**Egyszeres egyágú elágazás**
 ```python
 a=5
 
@@ -132,7 +134,7 @@ if (a>3):
     
 print("Itt a vége")
 ```
-Egyszeres, kétágú elágazás
+**Egyszeres, kétágú elágazás**
 
 Ebben az esetben az ELSE ág az elágazás másik ága
 
@@ -142,3 +144,18 @@ if (a>=3):
 else:
     print("Kisebb")  
 ```
+**Többszörös elágazás**
+```py
+b=6
+
+if (b==10):
+    print("Tíz") 
+elif(b==2):
+       print("Kettő")
+elif(b==6):
+       print("Hat")
+else:
+    print("Egyéb")    
+     
+print("Itt a vége")
+```    
