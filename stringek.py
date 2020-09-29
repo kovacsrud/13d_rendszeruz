@@ -36,6 +36,39 @@ print(a.count("x"))
 #Kartakterek cseréje a szövegben
 print(a.replace("a","x"))
 
+#Szöveg darabolás
+
+adat="Kozma Ubul,1986,Szeged,112667"
+
+adatok=adat.split(",")
+
+# Egy adott tömbelem kiíratása
+print(adatok)
+
+# Részletek kiemelése egy szövegből
+
+datum="2018.12.26"
+
+ev=datum[0:4]
+honap=datum[5:7]
+nap=datum[8:]
+
+print(ev)
+print(honap)
+print(nap)
+
+#Csak az utolsó 3 karakter
+print(datum[-3:])
+
+#Az utolsó 3 karakter kivételével minden
+print(datum[:-3])
+
+# Vizsgálatok
+
+c="2"
+print(c.isdigit())
+print(c.isalpha())
+print(c.isalnum())
 
 
 
