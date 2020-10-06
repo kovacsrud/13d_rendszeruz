@@ -31,7 +31,7 @@ print("Ez már a for ciklus után van")
 # A range használata
 # A range segítségével egy számsort készíthetünk
 
-r=range(1,20)
+r=range(0,20)
 print(*r)
 
 # A for ciklus végig megy a tömbön és
