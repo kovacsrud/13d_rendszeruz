@@ -267,3 +267,21 @@ A szöveg összes karaktere az utolsó 3 kivételével
 ```py
 print(datum[:-3])
 ```
+
+### Tömbök
+
+Azonos típusú elemeket tartalmazó adatszerkezet.
+Az elemek számozása 0-tól kezdődik.
+```py
+szamok=[1,236,554,677,12,998,332,67,191,111,704,268]
+```
+**Adott indexű elem kiíratása**
+```py
+print(szamok[0])
+print(szamok[3])
+```
+
+**Tömb elemszámának kiíratása**
+```py
+print(len(szamok))
+```
