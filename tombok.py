@@ -12,6 +12,8 @@ import numpy as np
 # Az elemek számozása 0-tól kezdődik
 szamok=[1,236,554,677,12,998,332,67,191,111,704,268]
 
+
+
 print(szamok[0])
 print(szamok[3])
 
