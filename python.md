@@ -296,3 +296,18 @@ for i in szamok:
 ```
 Fontos, hogy a FOR-hoz tartozó utasításoknak ugyanakkora behúzással kell szerepelniük.
 
+### A Range() függvény
+A RANGE() függvény egy számsort készít, amely felhasználható egy adatszerkezet bejárásakor.
+
+```py
+r=range(0,20)
+print(*r)
+```
+
+A RANGE() gyakran szerepel a FOR ciklusban is.
+
+```py
+for i in range(0,len(szamok)):
+    szamok[i]+=10;
+    print(str(i)+":"+str(szamok[i]))
+```
