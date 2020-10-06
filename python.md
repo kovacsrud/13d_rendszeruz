@@ -311,3 +311,24 @@ for i in range(0,len(szamok)):
     szamok[i]+=10;
     print(str(i)+":"+str(szamok[i]))
 ```
+
+### Elöltesztelő ciklus, WHILE
+
+A WHILE ciklusnál egy belépési feltételt kell megfogalmazni, a ciklus mindaddig fut, amíg a belépési feltétel teljesül.
+Fontos gondoskodni arról, hogy a ciklus futása véget tudjon érni.
+
+**Egy elrontott WHILE**
+```py
+a=0
+while (a<20):
+    print(a)
+```
+Észre kell venni, hogy a értéke nem módosul, ezért ez a ciklus egy ún. végtelen ciklus.
+
+**Az előbbi példa helyesen**
+```py
+while (a<20):
+    print(a)
+    a+=1
+```
+Látszik, hogy **a** értéke minden egyes végrehajtáskor nő, így a ciklus **a=20** értéknél befejezi a futását.
