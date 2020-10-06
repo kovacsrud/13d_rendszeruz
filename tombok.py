@@ -46,7 +46,11 @@ szovegek=["egy","kettő","három","négy","öt"]
 
 for i in szovegek:
     print(i)
+    
+
+szovegek.append("hat")
 
 
+print(szovegek)
 
 
