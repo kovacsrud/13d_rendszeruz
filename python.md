@@ -285,3 +285,14 @@ print(szamok[3])
 ```py
 print(len(szamok))
 ```
+
+### FOR ciklus
+
+Ez a ciklus jó választás egy adatszerkezet elemeinek bejárására.
+Tömb elemeinek a kiíratása FOR-al:
+```py
+for i in szamok:
+    print(i)
+```
+Fontos, hogy a FOR-hoz tartozó utasításoknak ugyanakkora behúzással kell szerepelniük.
+
