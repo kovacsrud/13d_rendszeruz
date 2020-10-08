@@ -300,6 +300,12 @@ nevek.insert(2,'Janka')
 ```
 Az **insert** parancsnak meg tudjuk adni azt az indexet, ahová be kell szúrni az új elemet, így már létező elemek közé is be tudunk szúrni újat.
 
+**Lista kiürítése**
+```py
+nevek.clear()
+```
+A **clear()** parancs használata után a lista üres.
+
 ### FOR ciklus
 
 Ez a ciklus jó választás egy adatszerkezet elemeinek bejárására.
