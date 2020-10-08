@@ -374,3 +374,13 @@ keres='Ubul'
 print(keres in nevek)
 ```
 
+### Véletlen számok generálása
+
+Véletlen számok generálásához Python-ban be kell tölteni a random modult. A betöltött modulnak az **as** kulccszóval adunk egy olyan nevet, amelyen a programból hivakozunk rá.
+```py
+import random as rnd
+```
+Egy véletlen érték generálása a **randint** paranccsal végezhető el, meg kell adnunk, hogy milyen határok között akarunk értékeket generálni. A parancs a modul nevén belül szerepel, ponttal elválasztva.
+```py
+veletlenszam=rnd.randint(0,100)
+```
