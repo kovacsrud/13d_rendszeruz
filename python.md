@@ -353,7 +353,7 @@ while (a<20):
 ```
 Látszik, hogy **a** értéke minden egyes végrehajtáskor nő, így a ciklus **a=20** értéknél befejezi a futását.
 
-### Keresés listában**
+### Keresés listában
 A  klasszikus módszer az az hogy egy ciklussal végigmegyek a listán, minden elemet összehasonlítok a keresett elemmel. Ha van a keresett elemmel megegyező elem, akkor
 egy logikai változó értékének az True-ra állításával jelzem ez, illetve a **break** parancs használatával megszakítom a ciklust, hogy ne fusson tovább feleslegesen.
 
@@ -367,5 +367,10 @@ for i in nevek:
         break
 print(megvan)        
 ```
-
+Nyilván ezt fáradtságos lenne mindig megírni, ezért a Python-ban (és más nyelvekben is természetesen) van beépített funkció arra, meg meg tudjuk nézni, hogy egy elem szerepel-e egy listában. Python-ban az ***in*** operátor vizsgálja meg, hogy egy érték megtalálható-e egy listában. Eredményül mindig egy logikai értéket(True/False) kapunk.
+```py
+nevek=['Ubul','Elek','Jakab','Tamás','Eleonóra']
+keres='Ubul'
+print(keres in nevek)
+```
 
