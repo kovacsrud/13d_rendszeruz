@@ -352,3 +352,20 @@ while (a<20):
     a+=1
 ```
 Látszik, hogy **a** értéke minden egyes végrehajtáskor nő, így a ciklus **a=20** értéknél befejezi a futását.
+
+### Keresés listában**
+A  klasszikus módszer az az hogy egy ciklussal végigmegyek a listán, minden elemet összehasonlítok a keresett elemmel. Ha van a keresett elemmel megegyező elem, akkor
+egy logikai változó értékének az True-ra állításával jelzem ez, illetve a **break** parancs használatával megszakítom a ciklust, hogy ne fusson tovább feleslegesen.
+
+```py
+nevek=['Ubul','Elek','Jakab','Tamás','Eleonóra']
+keres='Ubul'
+megvan=True
+for i in nevek:
+    if(i==keres):
+        megvan=False
+        break
+print(megvan)        
+```
+
+
