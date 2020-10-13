@@ -4,10 +4,11 @@ Created on Tue Oct 13 11:51:55 2020
 
 @author: SysAdmin
 """
+import random as rnd
 
 darabszam=0
 
-#beolvasás a billentyűzetről
+#legyen a bemenő adat egy véletlen szám
 szam=int(input())
 
 #ciklus, amíg 0-t nem adnak meg

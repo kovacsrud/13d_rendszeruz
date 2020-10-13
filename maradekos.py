@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 """
 Created on Tue Oct 13 11:38:18 2020
@@ -23,3 +24,13 @@ while(szam!=0):
 print("Ennyi osztható 2-vel:"+str(darabszam))    
 
 
+=======
+print("Maradékos osztás")
+
+print(6%4)
+
+if(879%19==0):
+    print("Osztható")
+else:
+    print("Nem osztható")
+>>>>>>> 920d49f29253d29d2de3bc879fad42022efc1b28
