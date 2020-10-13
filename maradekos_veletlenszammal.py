@@ -9,7 +9,7 @@ import random as rnd
 darabszam=0
 
 #legyen a bemenő adat egy véletlen szám
-szam=int(input())
+szam=rnd.randint(-100,100)
 
 #ciklus, amíg 0-t nem adnak meg
 while(szam!=0):
@@ -18,6 +18,6 @@ while(szam!=0):
         darabszam+=1
     else:
         print(str(szam)+" nem osztható 2-vel")
-    szam=int(input())    
+    szam=rnd.randint(-100,100)
     
 print("Ennyi osztható 2-vel:"+str(darabszam))    
