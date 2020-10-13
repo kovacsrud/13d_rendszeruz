@@ -17,3 +17,16 @@ for i in szamok:
     osszeg+=i
     
 print("Az összeg:"+str(osszeg))    
+print("Átlag:"+str(osszeg/len(szamok)))
+
+osszeg=0
+
+#for ciklus a range használatával
+for i in range(0,len(szamok)):
+    osszeg+=szamok[i]
+    print(str(i)+","+str(szamok[i]))
+
+print("Az összeg:"+str(osszeg))    
+print("Átlag:"+str(osszeg/len(szamok)))
+
+
