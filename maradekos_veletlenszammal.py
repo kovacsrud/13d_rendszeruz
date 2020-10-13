@@ -7,7 +7,8 @@ Created on Tue Oct 13 11:51:55 2020
 import random as rnd
 
 darabszam=0
-
+# Oldja meg, hogy a ciklus után látható legyen, hogy hányszor futott le
+# a ciklus
 #legyen a bemenő adat egy véletlen szám
 szam=rnd.randint(-100,100)
 
