@@ -54,3 +54,17 @@ print("Min:"+str(min))
 print("Max:"+str(max))
 
 #min, max while ciklussal
+min=szamok[0]
+max=szamok[0]
+
+szamlalo=0
+
+while(szamlalo<len(szamok)):
+    if(szamok[szamlalo]<min):
+        min=szamok[szamlalo]
+    if(szamok[szamlalo]>max):
+        max=szamok[szamlalo]
+    szamlalo+=1
+    
+print("Min:"+str(min))
+print("Max:"+str(max))    
