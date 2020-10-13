@@ -9,6 +9,7 @@ import random as rnd
 darabszam=0
 # Oldja meg, hogy a ciklus után látható legyen, hogy hányszor futott le
 # a ciklus
+ciklusszamlalo=0
 #legyen a bemenő adat egy véletlen szám
 szam=rnd.randint(-100,100)
 
@@ -20,5 +21,9 @@ while(szam!=0):
     else:
         print(str(szam)+" nem osztható 2-vel")
     szam=rnd.randint(-100,100)
+    ciklusszamlalo+=1
     
 print("Ennyi osztható 2-vel:"+str(darabszam))    
+print("Ennyiszer futott a ciklus:"+str(ciklusszamlalo))
+
+
