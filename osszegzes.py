@@ -53,3 +53,4 @@ for i in range(0,len(szamok)):
 print("Min:"+str(min))
 print("Max:"+str(max))
 
+#min, max while ciklussal
