@@ -411,6 +411,7 @@ A játék végén meg kell határozni, hogy a játékos hány számot talált el
 
 ### Mondatszerű leírás
 ```py
+Program start
 Be hanySzam
 Be osszSzam
 Növekményes ciklus i=1-től osszSzam-ig
@@ -424,6 +425,10 @@ Növekményes ciklus i=1-től osszSzam-ig
 	Ciklus amíg(atmeneti in nyeroszamok)
 		atmeneti=veletlenszam(1,osszSzam)
 	nyeroszamok.betesz(atmeneti)
-	
-	
+talalat=0	
+Növekményes ciklus i=0 -tól len(tippek)-ig
+	ha (tippek[i] in nyeroszamok
+		talalat+=1
+Ki:talalat
+Program vége
 ```
