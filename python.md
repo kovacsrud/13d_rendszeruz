@@ -384,3 +384,22 @@ Egy véletlen érték generálása a **randint** paranccsal végezhető el, meg 
 ```py
 veletlenszam=rnd.randint(0,100)
 ```
+## Színek használata Python-ban
+
+## Lottó játék algoritmusa
+A játék induláskor kérje be a felhasználótól azt, hogy hány számmal akar játszani, illetve hány számból akarja sorsoltatni a nyerőszámokat. A klasszikus ötös lottó esetében 90 szám közül lehet 5-öt választani.
+Az induló adatok után a program kérje be a felhasználótól a megadott számú tippeket. Nem lehet két egyforma tipp, valamint a tippeknek a megadott számtartományba kell esniük.
+Sorsoláskor figyelni kell arra, hogy nem lehet egyforma nyerőszám.
+A játék végén meg kell határozni, hogy a játékos hány számot talált el.
+
+### Mondatszerű leírás
+```py
+Be hanySzam
+Be osszSzam
+Növekményes ciklus i=1-től 5-ig
+	Be atmeneti
+	Ciklus amíg (atmeneti<1 vagy atmeneti>osszSzam vagy atmeneti in tippek)
+		Ki "Rossz tipp, újra!"
+		Be atmeneti
+	tippek.betesz(atmeneti)	
+```
