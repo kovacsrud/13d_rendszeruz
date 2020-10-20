@@ -413,10 +413,17 @@ A játék végén meg kell határozni, hogy a játékos hány számot talált el
 ```py
 Be hanySzam
 Be osszSzam
-Növekményes ciklus i=1-től 5-ig
+Növekményes ciklus i=1-től osszSzam-ig
 	Be atmeneti
 	Ciklus amíg (atmeneti<1 vagy atmeneti>osszSzam vagy atmeneti in tippek)
 		Ki "Rossz tipp, újra!"
 		Be atmeneti
 	tippek.betesz(atmeneti)	
+Növekményes ciklus i=1-től osszSzam-ig	
+	atmeneti=veletlenszam(1,osszSzam)
+	Ciklus amíg(atmeneti in nyeroszamok)
+		atmeneti=veletlenszam(1,osszSzam)
+	nyeroszamok.betesz(atmeneti)
+	
+	
 ```
