@@ -33,4 +33,4 @@ if(879%19==0):
     print("Osztható")
 else:
     print("Nem osztható")
->>>>>>> 920d49f29253d29d2de3bc879fad42022efc1b28
+
