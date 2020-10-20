@@ -17,4 +17,8 @@ print("Nincs szín elvileg")
 szamok=[19,233,45,68,122,411,62,69,76]
 
 #Jelöljük meg háttér és szövegszínnel a szamok lista 2-vel osztható számait.
-
+for i in szamok:
+    if(i%2==0):
+        print(Fore.RED+str(i)+Style.RESET_ALL)
+    else:
+        print(i)
