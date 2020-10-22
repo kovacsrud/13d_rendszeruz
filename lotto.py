@@ -39,7 +39,7 @@ for i in range(0,len(tippek)):
 
 for i in range(0,len(tippek)):
     if(tippek[i] in nyeroszamok):
-        print(Fore.BLUE,Back.YELLOW+str(tippek[i])+Style.RESET_ALL)
+        print(Fore.BLUE,Back.GREEN+str(tippek[i])+Style.RESET_ALL)
     else:
         print(tippek[i])
         
