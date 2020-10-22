@@ -31,8 +31,16 @@ for i in range(0,hanySzam):
         atmeneti=rnd.randint(1,osszSzam)
     nyeroszamok.append(atmeneti)    
     
+talalat=0
+for i in range(0,len(tippek)):
+    if(tippek[i] in nyeroszamok):
+        talalat+=1
+
 
 print(tippek)    
 print(nyeroszamok)
+print("Találat:"+str(talalat))
+
+5
 
 
