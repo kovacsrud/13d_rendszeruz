@@ -37,10 +37,18 @@ for i in range(0,len(tippek)):
         talalat+=1
 
 
-print(tippek)    
-print(nyeroszamok)
+for i in range(0,len(tippek)):
+    if(tippek[i] in nyeroszamok):
+        print(Fore.BLUE,Back.YELLOW+str(tippek[i])+Style.RESET_ALL)
+    else:
+        print(tippek[i])
+        
+        
+
+#print(tippek)    
+#print(nyeroszamok)
 print("Találat:"+str(talalat))
 
-5
+
 
 
