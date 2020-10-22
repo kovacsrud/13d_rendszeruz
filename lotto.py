@@ -25,4 +25,14 @@ for i in range(0,hanySzam):
         atmeneti=int(input())
     tippek.append(atmeneti)    
 
+for i in range(0,hanySzam):
+    atmeneti=rnd.randint(1,osszSzam)
+    while(atmeneti in nyeroszamok):
+        atmeneti=rnd.randint(1,osszSzam)
+    nyeroszamok.append(atmeneti)    
+    
+
 print(tippek)    
+print(nyeroszamok)
+
+
