@@ -14,14 +14,21 @@ def veletlenlista(db,also,felso):
         lista.append(rnd.randint(also,felso))
     return lista
 
+def osszeg(lista):
+    osszeg=0
+    for i in range(0,len(lista)):
+        osszeg=osszeg+lista[i]
+    return osszeg    
+
+## pozitívak darabszáma
 
 ##a veletlenlista függvény meghívása
 
 szamok=veletlenlista(10,0,100) 
 szamok2=veletlenlista(30,-100,100)   
 
-print(szamok)
-print(szamok2)
+print(osszeg(szamok))
+print(osszeg(szamok2))
 
 
 
