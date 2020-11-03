@@ -50,4 +50,11 @@ print(osszeg)
 min=szamok[0]
 max=szamok[0]
 
-
+for i in range(0,len(szamok)):
+    if(szamok[i]<min):
+        min=szamok[i]
+    if(szamok[i]>max):
+        max=szamok[i]
+#összefűzés valamilyen szöveggel        
+print("Min:"+str(min))        
+print("Max:"+str(max))
