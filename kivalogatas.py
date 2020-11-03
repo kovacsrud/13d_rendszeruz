@@ -8,7 +8,7 @@ Created on Tue Nov  3 07:52:50 2020
 #Keresés és kiválogatás
 
 szamok=[10,-2,122,-31,-19,26,33,-121,59]
-#Üres lista
+        #Üres lista
 negativak=[]
 
 #ciklus a szamok listan
@@ -58,3 +58,15 @@ for i in range(0,len(szamok)):
 #összefűzés valamilyen szöveggel        
 print("Min:"+str(min))        
 print("Max:"+str(max))
+
+#rendezés
+#a külső for a 0-ik elemtől az utolsó előtti elemig fut
+for i in range(0,len(szamok)-1):
+    for j in range(i+1,len(szamok)):
+        #print(str(szamok[i])+","+str(szamok[j]))
+        if(szamok[i]>szamok[j]):
+            temp=szamok[i]
+            szamok[i]=szamok[j]
+            szamok[j]=temp
+
+print(szamok)
