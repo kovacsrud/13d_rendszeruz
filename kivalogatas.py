@@ -18,4 +18,14 @@ for i in range(0,len(szamok)):
 
         
 print(negativak)        
+
+#Megszámlálás
+darab=0
+
+for i in range(0,len(szamok)):
+    if(szamok[i]>-1):
+        #darab=darab+1
+        darab+=1
+
+print(darab)
     
