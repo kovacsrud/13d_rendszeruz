@@ -29,8 +29,12 @@ print(npszamok.mean())
 print(npszamok.min())
 print(npszamok.max())
 
-#kiválogatások
+#kiválogatások, egy feltétel
 print(npszamok>40)
 print(npszamok[npszamok>40])
 print(npszamok[npszamok>40].sum())
 
+
+#kiválogatások, több feltétel
+print((npszamok>40) & (npszamok<200))
+print(npszamok[(npszamok>40) & (npszamok<200)])
