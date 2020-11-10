@@ -47,9 +47,30 @@ print(npszamok[3:])
 print(npszamok[:3])
 
 print(npszamok.shape)
+# példák a lehetséges átalakításra
 print(npszamok.reshape(2,6))
 print(npszamok.reshape(6,2))
 print(npszamok.reshape(3,4))
 print(npszamok.reshape(4,3))
 
+# egy 3 sorból, 4 oszlopból álló
+# tömbbé alakítjuk az eredetit
+npszamok2=npszamok.reshape(3,4)
 
+#a dimenziók kiíratása
+print(npszamok2.shape)
+
+print(npszamok2)
+print(npszamok2[0,0])
+print(npszamok2[0,1])
+print(npszamok2[1,1])
+
+# Gyakorló feladat: For ciklusok segítségével
+# írassa ki az npszamok2 tömb elemeit
+
+for i in range(0,npszamok2.shape[0]):
+    for j in range(0,npszamok2.shape[1]):
+        print(npszamok2[i,j],end=" ")
+    print(" ")    
+
+        
