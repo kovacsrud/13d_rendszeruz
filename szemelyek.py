@@ -7,6 +7,9 @@ class Szemely:
         self.keresztnev=keresztnev
         self.szuletesiev=szuletesiev
         self.szuletesihely=szuletesihely
+    def Eletkor(self):
+        return 2020-self.szuletesiev
+
 
 vezeteknevek=["Kiss","Kovács","Horváth","Nagy","Tipi","Kertész","Áchim"]
 keresztnevek=["István","Péter","Jolán","Zoltán","Anita","Dániel","Aranka"]
@@ -46,5 +49,17 @@ szuletes7599=list(filter(lambda x:x.szuletesiev>=1975 and x.szuletesiev<=1990,sz
 
 print(len(szuletes7599))
 
-#for i in range(0,len(szuletes7599)):
-#    print(szuletes7599[i].vezteknev)
+for i in range(0,len(szuletes7599)):
+    print(szuletes7599[i].vezteknev)
+
+kovacsok=list(filter(lambda x:x.vezteknev=="Kovács",szemelyek))
+
+print(len(kovacsok))
+
+huszevesek=list(filter(lambda x:x.Eletkor()==20,szemelyek))
+
+print(len(huszevesek))
+
+idosek=list(filter(lambda x:x.Eletkor()>=60 and x.Eletkor()<=90,szemelyek))
+
+print(len(idosek))
